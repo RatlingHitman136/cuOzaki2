@@ -1,0 +1,4 @@
+# compile_commands.json comes from nvcc; translate it into something clangd understands.
+CompileFlags:
+  Add: [-xcuda, --cuda-path=/usr/local/cuda, --cuda-gpu-arch=sm_89, -Wno-unknown-cuda-version]
+  Remove: [-forward-unknown-to-host-compiler, --generate-code*, -Xcompiler*, --expt-relaxed-constexpr, -lineinfo, --options-file*, -arch*, -gencode*]
