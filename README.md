@@ -1,4 +1,4 @@
-# ozaki
+# CuOzaki accelerator
 
 Emulating double precision matrix multiplication on GPU **int8 tensor cores** with the
 **Ozaki scheme II** (integer / modular variant). A learning project: C++20, CUDA, CCCL
